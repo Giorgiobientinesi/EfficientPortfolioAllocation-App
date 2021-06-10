@@ -15,7 +15,7 @@ from finrl.config import config
 from finrl.marketdata.yahoodownloader import YahooDownloader
 from finrl.preprocessing.preprocessors import FeatureEngineer
 from finrl.preprocessing.data import data_split
-from finrl.env.environment import EnvSetup
+from enviroment - Copia.py import EnvSetup
 from finrl.model.models import DRLAgent
 from finrl.trade import backtest
 import time
