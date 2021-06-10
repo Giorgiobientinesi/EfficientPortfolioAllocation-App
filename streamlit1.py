@@ -16,12 +16,10 @@ from finrl.marketdata.yahoodownloader import YahooDownloader
 from finrl.preprocessing.preprocessors import FeatureEngineer
 from finrl.preprocessing.data import data_split
 from finrl.env.environment import EnvSetup
-from finrl.env.env_portfolio import StockPortfolioEnv
-from finrl.env.EnvMultipleStock_train import StockEnvTrain
-from finrl.env.EnvMultipleStock_trade import StockEnvTrade
 from finrl.model.models import DRLAgent
 from finrl.trade import backtest
 import time
+from env_portfolio.py import StockPortfolioEnv
 import os
 import pyfolio.timeseries
 
