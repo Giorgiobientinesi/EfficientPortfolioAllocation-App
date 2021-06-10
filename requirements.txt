@@ -11,3 +11,4 @@ yfinance == 0.1.59
 gym == 0.18.0
 pytest == 6.2.1
 more_itertools == 8.8.0
+pyarrow == 4.0.1
