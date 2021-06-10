@@ -6,3 +6,4 @@ matplotlib == 3.2.1
 pyfolio == 0.9.2
 stable-baselines3 == 1.0
 stable-baselines == 2.10.2
+tensorflow == 1.15.4
